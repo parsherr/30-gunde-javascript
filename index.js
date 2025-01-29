@@ -1,26 +1,45 @@
-const fs = require("fs");
-const path = require("path");
+const fs = require('fs');
+const path = require('path');
 
-// "gün-planları" klasörünün yolunu al
-const folderName = path.join(__dirname, "gün-planları");
+function createDays() {
+  for (let day = 1; day <= 32; day++) {
+    const folderName = `gün-${day}`;
+    const folderPath = path.join(__dirname, folderName);
+    
+    if (!fs.existsSync(folderPath)) {
+      fs.mkdirSync(folderPath, { recursive: true });
+    }
 
-// Eğer "gün-planları" klasörü yoksa oluştur
-if (!fs.existsSync(folderName)) {
-  fs.mkdirSync(folderName);
-  console.log(`"${folderName}" klasörü oluşturuldu.`);
-} else {
-  console.log(`"${folderName}" klasörü zaten mevcut.`);
-}
+    let content = `<div align="center">
+  <h1>30 Günde Javascript</h1>
+</div>\n\n`;
 
-// 11'den 32'ye kadar dosyaları oluştur
-for (let i = 11; i <= 32; i++) {
-  const filePath = path.join(folderName, `gun-${i}.md`);
-  if (!fs.existsSync(filePath)) {
-    fs.writeFileSync(filePath, `# Gün ${i}\n\nBu, gün ${i} için bir plan dosyasıdır.`, "utf8");
-    console.log(`"${filePath}" oluşturuldu.`);
-  } else {
-    console.log(`"${filePath}" zaten mevcut.`);
+    let prevLink = '';
+    let nextLink = '';
+
+    if (day === 1) {
+      prevLink = '[<< Ana sayfa](../README.md)';
+      nextLink = `[Gün ${day + 1} >>](../gün-${day + 1}/gun-${day + 1}.md)`;
+    } else if (day === 32) {
+      prevLink = `[<< Gün ${day - 1}](../gün-${day - 1}/gun-${day - 1}.md)`;
+    } else {
+      prevLink = `[<< Gün ${day - 1}](../gün-${day - 1}/gun-${day - 1}.md)`;
+      nextLink = `[Gün ${day + 1} >>](../gün-${day + 1}/gun-${day + 1}.md)`;
+    }
+
+    const navigation = nextLink 
+      ? `${prevLink} | ${nextLink}`
+      : prevLink;
+
+    content += `${navigation}\n\n.....`;
+    content += "\nİçerikler buraya\n.....\n\n";
+    content += navigation;
+
+    const fileName = `gun-${day}.md`;
+    const filePath = path.join(folderPath, fileName);
+    fs.writeFileSync(filePath, content);
   }
 }
 
-console.log("Tüm dosyalar başarıyla oluşturuldu!");
+createDays();
+console.log('32 günlük yapı başarıyla oluşturuldu!');
