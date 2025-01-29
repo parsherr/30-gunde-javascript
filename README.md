@@ -4,6 +4,8 @@
 
 Bu repo, JavaScript'in temelini öğrenmek ve modern JavaScript tekniklerine hakim olmak isteyen herkes için oluşturuldu. Eğitim serimiz, **temel JavaScript kavramlarından başlayarak modern JavaScript'e kadar geniş bir yelpazeyi kapsar**.
 
+[Başla >>](./gün-1/gun-1.md)
+
 ## Amacımız 🌟
 
 - JavaScript'in temel prensiplerini anlamak
@@ -23,10 +25,6 @@ Bu GitHub reposu, YouTube'da yayınlanacak olan "30 Gün JavaScript" serisini de
 
 ## Başlarken 🎉
 
-1. **GitHub Repo'sunu Klonlayın:**
-   ```sh
-   git clone https://github.com/parsherr/30-gunde-javascript.git
-   ```
 
 YouTube Kanalımızı Takip Edin: Videoları izleyerek öğrenme sürecinizi zenginleştirin.
 Pratik Yapın: Kod örneklerini çalıştırın, kendi projelerinizi geliştirin.
@@ -41,3 +39,5 @@ Bu proje MIT lisansı (LICENSE) altında lisanslanmıştır.
 Her türlü soru, öneri veya işbirliği için bana buradan (mailto:support@setscript.com) ulaşabilirsiniz veya GitHub üzerinden iletişime geçebilirsiniz.
 
 JavaScript yolculuğunuza başlamak için hazır mısınız? Hadi başlayalım!
+
+[Başla >>](./gün-1/gun-1.md)
