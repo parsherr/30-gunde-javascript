@@ -4,7 +4,7 @@
 
 Bu repo, JavaScript'in temelini öğrenmek ve modern JavaScript tekniklerine hakim olmak isteyen herkes için oluşturuldu. Eğitim serimiz, **temel JavaScript kavramlarından başlayarak modern JavaScript'e kadar geniş bir yelpazeyi kapsar**.
 
-[Başla >>](./gün-1/gun-1.md)
+[Başla >>](./günler/gün-1/gun-1.md)
 
 ## Amacımız 🌟
 
@@ -40,4 +40,4 @@ Her türlü soru, öneri veya işbirliği için bana buradan (mailto:support@set
 
 JavaScript yolculuğunuza başlamak için hazır mısınız? Hadi başlayalım!
 
-[Başla >>](./gün-1/gun-1.md)
+[Başla >>](./günler/gün-1/gun-1.md)
