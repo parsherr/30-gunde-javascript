@@ -127,9 +127,11 @@ prompt("Adın ne?");
 Bu kod çalıştığında, "Adın ne?" sorusunu içeren bir kutu açılır ve kullanıcı cevap yazabilir.
 
 Bu örneklerde:  
-- **`alert()`** ekrana mesaj gösterir.  
-- **`prompt()`** kullanıcıdan bilgi alır.  
-- **`Number()`** ile girilen değeri sayıya çeviriyoruz.  
+- **`alert()`** ekrana mesaj gösteriyoruz.  
+- **`prompt()`** kullanıcıdan bilgi alıyoruz.  
+- **`console.log()`** ile konsole yazı yazdırıyoruz. 
+- **`console.warn()`** ile sarı bir uyarı mesajı gönderiyoruz.
+- **`console.error()`** ile kırmızı bir hata mesajı gönderiyoruz. 
 
 Böylece, yeni başlayan biri için anlaşılır bir temel oluşturduk. 🚀
 
