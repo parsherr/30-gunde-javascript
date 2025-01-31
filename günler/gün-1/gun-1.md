@@ -153,6 +153,10 @@ Böylece, yeni başlayan biri için anlaşılır bir temel oluşturduk. 🚀
 3. "Open with Live Server" seçeneğini tıklayın
 4. Tarayıcınızda otomatik olarak açılacaktır
 
+```
+string, intager, booliean, number typlarını fln anlatmayı unutşmuşum. burada başlarım temeline. 2. günün başıdna ise bitiririm.
+```
+
 Harika! Bu günün sonuna geldin! bu temel bilgiler, JavaScript öğrenmeye yeni başlayanlar için iyi bir başlangıç noktası olacaktır.
 Gün 2'den devam etmek için aşağa da ki butona basabilirsin ^^
 
