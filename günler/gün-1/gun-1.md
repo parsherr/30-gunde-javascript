@@ -6,8 +6,10 @@
 [<< Ana sayfa](../../README.md) | [Gün 2 >>](../../günler/gün-2/gun-2.md)
 
 
-## JavaScript'in Tanıtımı
+## JavaScriptTanıtımı
 JavaScript, web tarayıcılarında çalışan, web sayfalarını interaktif hale getiren programlama dilidir. Bir web sitesindeki her türlü hareketi, tıklama işlemini, form doldurma ve göndermeyi JavaScript ile yapabilirsiniz.
+
+Ama bu açıklama tam olarak yeterli değil. Yukarıda ki açıklama Javascript'in ilk amacı anlatılıyor ama günümüzde Javascript kullanarak oyun yapmaktan tutun, Windows'da çalışan uygulamalara, Sosyal medya botlarına kadar aklınıza gelebilecek bir çok şeyi yapabilirsiniz
 
 ## Web Geliştirmedeki Yeri ve Önemi
 - HTML: Sitenin iskeletini oluşturur
