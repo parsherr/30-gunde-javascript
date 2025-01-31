@@ -75,6 +75,9 @@ JavaScript özel bir dildir çünkü hem front-end hem de back-end (Node.js ile)
 - Firefox: F12 veya Ctrl+Shift+I
 - Safari: Cmd+Option+I
 
+### Önemli Not :
+Basit Javascript kodlarımızı tarayıcınızın F12 kısa yoluyla açılan geliştirici penceresinde, console kısmından da kullanabiliriz ama biz eğtiim boyunca Js kaçlıştırmak için VScode programını kullanacağız. (Merak etmeyin size F12 consolununda nasıl kullanıldığını anlatacağım ama emin olun oradan ilerlememiz sizin adınıza daha iyi olur 😊)
+
 ### Temel Console Komutları
 ```javascript
 // Normal mesaj
