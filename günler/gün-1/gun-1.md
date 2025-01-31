@@ -5,8 +5,10 @@
 
 [<< Ana sayfa](../../README.md) | [Gün 2 >>](../../günler/gün-2/gun-2.md)
 
+#### Ufak bir Not:
+Direkt olarak eğitime başlamadan önce, bu github reposunun bir de youtube eğitim serisi olacaktır. eğer direkt olarak repodan başlayacaksanız tabii ki de size kalmış anca youtube tarafında takip ederseniz öğreniminiz adına sizin için çok daha verimli olacaktır.
 
-## JavaScriptTanıtımı
+## JavaScript Tanıtımı
 JavaScript, web tarayıcılarında çalışan, web sayfalarını interaktif hale getiren programlama dilidir. Bir web sitesindeki her türlü hareketi, tıklama işlemini, form doldurma ve göndermeyi JavaScript ile yapabilirsiniz.
 
 Ama bu açıklama tam olarak yeterli değil. Yukarıda ki açıklama Javascript'in ilk amacı anlatılıyor ama günümüzde Javascript kullanarak oyun yapmaktan tutun, Windows'da çalışan uygulamalara, Sosyal medya botlarına kadar aklınıza gelebilecek bir çok şeyi yapabilirsiniz
