@@ -34,6 +34,11 @@ JavaScript özel bir dildir çünkü hem front-end hem de back-end (Node.js ile)
 2. İşletim sisteminize uygun sürümü indirin
 3. Kurulum dosyasını çalıştırın ve varsayılan ayarlarla kurulumu tamamlayın
 
+### Node.js İndirme ve Kurulum
+1. [Node.js](https://nodejs.org/tr/download) adresine gidin
+2. Direkt olarak aşağada yer alan "Windows Installer (.msi)" butonuna basarak .msi uzantılı setup dosyasını indirin
+3. Kurulum dosyasını çalıştırın ve varsayılan ayarlarla kurulumu tamamlayın
+
 ### Önerilen Eklentiler
 - **Live Server**: Sayfanızı canlı olarak görüntüler ve otomatik yeniler
 - **JavaScript (ES6) code snippets**: Hazır kod parçacıkları sunar
